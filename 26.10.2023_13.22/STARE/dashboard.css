@@ -1,0 +1,17 @@
+ /* Ustaw wysokość siatki, aby .sidenav mogła wynosić 100% (dostosuj w razie potrzeby) */
+ .row.content {
+     height: 550px;
+ }
+
+ /* Ustaw szary kolor tła i 100% wysokości */
+ .sidenav {
+     background-color: #f1f1f1;
+     height: 100%;
+ }
+
+ /* Na małych ekranach ustaw wysokość siatki na „auto”. */
+ @media screen and (max-width: 767px) {
+     .row.content {
+         height: auto;
+     }
+ }

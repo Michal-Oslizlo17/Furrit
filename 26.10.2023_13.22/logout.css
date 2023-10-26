@@ -1,0 +1,16 @@
+* {
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+    color: aqua;
+    font-size: 40px;
+}
+
+#tekst {
+    text-align: center;
+    font-family: 'Consolas';
+    font-weight: bold;
+    text-decoration: underline;
+}

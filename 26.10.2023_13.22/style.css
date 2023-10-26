@@ -1,0 +1,37 @@
+#logout {
+    color: white;
+    background-color: rgb(72, 96, 231);
+    padding: 13px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #DfEfff;
+}
+
+#logout:hover,
+#logout:active {
+    color: white;
+    background-color: rgb(76, 125, 230);
+    text-decoration: underline;
+}
+
+#login {
+    color: white;
+    background-color: rgb(73, 98, 236);
+    padding: 13px;
+    border-radius: 10px;
+}
+
+#login:hover,
+#login:active {
+    color: white;
+    background-color: rgb(76, 125, 230);
+    text-decoration: underline;
+}
+
+#logininfo {
+    color: rgb(113, 118, 134);
+    padding-right: 20px;
+    margin-top: 10px;
+}

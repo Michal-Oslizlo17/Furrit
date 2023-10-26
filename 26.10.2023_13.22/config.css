@@ -1,0 +1,61 @@
+/* Definicja zmiennych w :root */
+:root {
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-ubuntu: 'Ubuntu', sans-serif;
+    --font-caveat: 'Caveat', sans-serif;
+    --font-space-mono: 'Space Mono', monospace;
+
+    /* Definicja dla kolorów */
+    --red: #D00000;
+    --blue: #0074E4;
+    --yellow: #FFD700;
+    --green: #2A9D5A;
+    --purple: #7D58E1;
+    --orange: #F39243;
+    --teal: #49A19B;
+    --rose: #E63946;
+    --gray: #808080;
+    --brown: #8B4513;
+    --gold: #C2A505;
+    --silver: #C0C0C0;
+    --violet: #9400D3;
+    --cyan: #00FFFF;
+    --magenta: #FF00FF;
+    --lime: #00FF00;
+    --indigo: #230082;
+    --maroon: #800000;
+    --navy: #000080;
+    --olive: #648000;
+    --pink: #FF69B4;
+    --turquoise: #40E0D0;
+    --lavender: #CACAFC;
+    --coral: #FF6B6B;
+    --slate: #708090;
+    --chocolate: #52290C;
+    --primary: #172737;
+    --secondary: #D8DFFF;
+    --white: #C9C9C9;
+}
+
+/* Import czcionek z Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/* Stylizacja czcionek */
+.font-text {
+    font-family: var(--font-montserrat);
+}
+
+.font-ubuntu {
+    font-family: var(--font-ubuntu);
+}
+
+.font-caveat {
+    font-family: var(--font-caveat);
+}
+
+.font-space-mono {
+    font-family: var(--font-space-mono);
+}

@@ -1,0 +1,37 @@
+/* Usuń domyślne dolne i zaokrąglone krawędzie paska nawigacyjnego */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: var(--primary);
+}
+
+/* Ustaw wysokość siatki, aby .sidenav mogła wynosić 100% (dostosuj w razie potrzeby) */
+.row.content {
+    height: 450px;
+}
+
+/* Ustaw szary kolor tła i 100% wysokości */
+.sidenav {
+    padding-top: 20px;
+    background-color: var(--secondary);
+    height: 100%;
+}
+
+/* Ustaw czarny kolor tła, biały tekst i trochę dopełnienia */
+footer {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 15px;
+}
+
+/* Na małych ekranach ustaw wysokość na "auto" dla nawigacji bocznej i siatki */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+
+    .row.content {
+        height: auto;
+    }
+}
